@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background: rgb(52,181,72);
+  background: linear-gradient(90deg, rgba(52,181,72,1) 16%, rgba(121,104,9,1) 35%, rgba(194,0,255,1) 100%);
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+ .list-group-item-warning {
+  text-decoration: none;
+  display: inline-block;
+  border:none;
+  box-shadow: 10px 10px 5px black;
+  color:rgb(144, 37, 110);
+ }
+
+ body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:blueviolet;
+ }
+
+ h1{
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+ }
+
+ ul {
+  padding-left: 0;
+ }
+
+ input {
+  background-color: antiquewhite;
+  color:sienna;
+ }
+
+/* ul li {
+  border-radius: 15px;
+ } */
+
+ /* li:first-child, li:last-child{
+  padding:15px;
+  border-radius: 20px;
+} */
