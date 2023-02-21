@@ -1,7 +1,9 @@
 <h1>N E W</h1> <h1> G A M E</h1>
 
 <ul>
-<% @letters.each do |letter|%><li class="list-group-item list-group-item-warning"><%=letter%></li> <% end%>
+<% @letters.each do |letter|%>
+<li class="list-group-item list-group-item-warning"><%=letter%></li>
+<% end%>
 </ul>
 
 <form action="/score" data-turbo="false" method="post">
